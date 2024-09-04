@@ -17,7 +17,7 @@ def pick_random_person(dictionary):
 
 user_score = 0
 continue_game = True
-# 
+#
 while continue_game:
     person_A = pick_random_person(instagram_followers)
     person_B = pick_random_person(instagram_followers)
@@ -43,7 +43,7 @@ while continue_game:
                 print(f"Not right - Your final score is {user_score}")
                 user_score = 0
                 continue_game = False
-        else:
-            print(f"A and B are the same person lol, start over - Your final score is {user_score}")
-            continue_game = False
+        # else:
+        #     print(f"A and B are the same person lol, start over - Your final score is {user_score}")
+        #     continue_game = False
 
